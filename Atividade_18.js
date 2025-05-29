@@ -1,4 +1,4 @@
-converteDecimal(numeroUm,base){
+function converteDecimal(numeroUm,base){
   let pilha = [];
   while(numeroUm > 0){
     pilha.push(numeroUm % base);
